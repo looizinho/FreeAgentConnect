@@ -14,7 +14,7 @@ const menuItems = [
   { label: 'Serviços', href: '#servicos' },
   { label: 'Freelancers', href: '#freelancers' },
   { label: 'AI Match', href: '#ai-match' },
-  { label: 'Contato', href: '#contato' },
+  { label: 'Fale Conosco', href: '#contato' },
 ];
 
 export default function Header() {
