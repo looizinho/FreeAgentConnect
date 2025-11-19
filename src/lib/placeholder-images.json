@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Hero background image of a modern office or coworking space.",
+      "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzYzNDU5ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "team-1",
+      "description": "Professional headshot of a team member.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NjM0NTQ3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-2",
+      "description": "Professional headshot of a team member.",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM1MjcxMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "team-3",
+      "description": "Professional headshot of a team member.",
+      "imageUrl": "https://images.unsplash.com/photo-1723537742563-15c3d351dbf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoZWFkc2hvdCUyMGJ1c2luZXNzfGVufDB8fHx8MTc2MzU0NTYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headshot business"
+    },
+    {
+      "id": "freelancer-1",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1689218742383-c4e7b8494e75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM0NTY0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer portrait"
+    },
+    {
+      "id": "freelancer-2",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1684917370732-67d68235ec8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzaWduZXIlMjBzbWlsaW5nfGVufDB8fHx8MTc2MzU0NTYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "designer smiling"
+    },
+    {
+      "id": "freelancer-3",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1579332190845-76263130d826?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3cml0ZXIlMjB0aGlua2luZ3xlbnwwfHx8fDE3NjM1NDU2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writer thinking"
+    },
+    {
+      "id": "freelancer-4",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1553484771-11998c592b9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRlciUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjM1NDU2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketer professional"
+    },
+    {
+      "id": "freelancer-5",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1487724077104-5196c4e819fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXZlbG9wZXIlMjBjb2RlfGVufDB8fHx8MTc2MzUxMjczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer code"
+    },
+    {
+      "id": "freelancer-6",
+      "description": "Profile picture of a freelancer.",
+      "imageUrl": "https://images.unsplash.com/photo-1613666517563-d19a4585d1fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzYzNDY1ODYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artist studio"
+    }
+  ]
 }
