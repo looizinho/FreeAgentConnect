@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect, useRef } from 'react';
+import { useActionState, useFormStatus } from 'react-dom';
+import { useEffect, useRef, useActionState as useReactActionState } from 'react';
 import Image from 'next/image';
 import { Bot, Loader2, Star, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -76,7 +76,7 @@ export default function AiMatcherSection() {
   const { toast } = useToast();
   const resultsRef = useRef<HTMLDivElement>(null);
   const initialState = { message: null, freelancers: null, success: false, errors: {} };
-  const [state, dispatch] = useFormState(matchFreelancersAction, initialState);
+  const [state, dispatch] = useReactActionState(matchFreelancersAction, initialState);
 
   useEffect(() => {
     if (state.success && state.freelancers && state.freelancers.length > 0) {

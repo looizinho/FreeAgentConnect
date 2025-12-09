@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect } from 'react';
+import { useFormStatus } from 'react-dom';
+import { useEffect, useActionState } from 'react';
 import { Mail, Phone, MapPin, Send, Loader2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -32,7 +32,7 @@ function SubmitButton() {
 export default function ContactSection() {
   const { toast } = useToast();
   const initialState = { message: null, errors: {}, success: false };
-  const [state, dispatch] = useFormState(submitContactForm, initialState);
+  const [state, dispatch] = useActionState(submitContactForm, initialState);
 
   useEffect(() => {
     if (state.success) {
